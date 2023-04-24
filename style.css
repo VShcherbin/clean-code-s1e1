@@ -21,9 +21,11 @@
 }
 
 @media (max-width:768px) {
+
   .matrix {
     text-align: center;
   }
+  
 }
 
 .container {
@@ -51,7 +53,7 @@
   list-style: none;
 }
 
-.input-checkbox, .input-text,.btn {
+.input-checkbox, .input-text, .btn {
   outline: none;
 }
 
