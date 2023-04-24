@@ -25,7 +25,7 @@
   .matrix {
     text-align: center;
   }
-  
+
 }
 
 .container {
@@ -49,11 +49,14 @@
   padding: 0px;
 }
 
-.list-item, .title {
+.list-item,
+.title {
   list-style: none;
 }
 
-.input-checkbox, .input-text, .btn {
+.input-checkbox,
+.input-text,
+.btn {
   outline: none;
 }
 
@@ -121,22 +124,22 @@
   align-items: center;
 }
 
-.list-item > * {
+.list-item>* {
   vertical-align: middle;
 }
 
-.list-item > .input-checkbox {
+.list-item>.input-checkbox {
   margin: 0 10px;
 }
 
-.list-item > .lbl {
+.list-item>.lbl {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.list-item > .input-text {
+.list-item>.input-text {
   width: 226px;
 }
 
